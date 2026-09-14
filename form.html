@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Form_info</title>
+</head>
+<body><h1>
+    <span style="color:skyblue ; background-color:green"><i>FILL OUT THE FORM<i>
+    <span>
+    </h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" id="name"
+        minlength="2" maxlength="30">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter the password" minlength="6" maxlength="100">
+
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="xyz@gmail.com"><br><br>
+
+        <label for="phone_no">Phone Number:</label>
+        <input type="tel" name="phone_no" id="phone_no" placeholder="12345 67890" pattern="[0-9]{5} [0-9]{5}">
+        <br><br>
+
+        <label for="bod">DOB</label>
+        <input type="date" name="bod" id="bod" >
+        <br><br>
+
+        <label for="no_of_cars">No of cars you own</label>
+        <input type="number" name="no_of_cars" id="no_of_cars" min="0" max="1000" ><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="Male" name="Gender"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="Female" name="Gender"><br>
+        <label for="no">Not prefer to say</label>
+        <input type="radio" id="no" value="Not prefer to say" name="Gender">
+
+        <br><br>
+        <label for="gender">Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+        <br><br>
+        <label for="tandc">Agreed for T and C</label>
+        <input type="checkbox" id="tandc" required >
+
+        <br><br>
+
+        <label for="suggestion">suggestion:</label><br>
+        <textarea id="suggestion" rows="3" cols="20" placeholder="Enter your suggestion"></textarea>
+
+        <br><br>
+        <label for="image">Image:</label>
+        <input type="file" id="image" accept="image/jpeg,image/jpg,image/png">
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+
+
+
+    </form>
+
+</body>
+</html>

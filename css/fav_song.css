@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Nabla;
+    src: url(/fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf);
+}
+
+@font-face {
+    font-family: CoralPixels;
+    src: url(/fonts/CoralPixels-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikPuddles;
+    src: url(/fonts/RubikPuddles-Regular.ttf);
+}
+
+body {
+    border-style: outset;
+    border-width: 20px;
+    border-color: rgb(138, 127, 5);
+    overflow: auto;
+    background-color: rgb(72, 72, 73);
+    margin: 0px;
+}
+
+#a1 {
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#a2 {
+    font-family: CoralPixels;
+    font-size: 35px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 2px white, -3px -3px 2px white;
+}
+
+mark {
+    background-color: greenyellow;
+    color: rgb(237, 9, 9);
+}
+
+pre {
+    background-color: rgb(46, 44, 44);
+    font-family: RubikPuddles;
+    font-size: 50px;
+    color: rgb(165, 191, 14);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 10px;
+    color: rgb(25, 51, 66);
+    font-family: Nabla;
+    font-size: 70px;
+    border-style: outset;
+    border-width: 10px 7px 10px 7px;
+    border-radius: 10px;
+    border-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 10px 10px 5px rgb(92, 100, 18), -10px -10px 5px rgb(176, 195, 9);
+}
+
+p {
+    margin: 10px;
+    font-family: Nabla;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(92, 100, 18), -5px -5px 5px rgb(176, 195, 9);
+}
