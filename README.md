@@ -1,3 +1,40 @@
+## Architecture Overview
+
+The project follows a simple static website architecture. HTML files are responsible for the structure and content, while the css directory handles presentation and styling. Multimedia and visual resources are separated into dedicated folders, making the project easier to organize and maintain.
+
+                           ┌──────────────────────┐
+                           │      index.html      │
+                           │       Home Page      │
+                           └──────────┬───────────┘
+                                      │
+                    ┌─────────────────┼─────────────────┐
+                    │                 │                 │
+                    │                 │                 │
+                    ▼                 ▼                 ▼
+          ┌────────────────┐  ┌────────────────┐  ┌─────────────────┐
+          │ fav_song.html  │  │   form.html    │  │ External Links  │
+          │ Favorite Song  │  │     Form       │  │ YouTube / Mail  │
+          └───────┬────────┘  └────────────────┘  └─────────────────┘
+                  │
+                  │
+                  │ Home link
+                  │
+                  ▼
+          ┌────────────────┐
+          │   index.html   │
+          │    Home Page   │
+          └────────────────┘
+
+
+          fav_song.html
+               │
+       ┌───────┼───────────┐
+       │       │           │
+       ▼       ▼           ▼
+    index    Joji       YouTube
+     .html   Website      Videos
+
+
 ## File Architecture
 
 ```text
@@ -43,38 +80,3 @@ My-First-Website/
         for the website.
 ```
 
-## Architecture Overview
-
-The project follows a simple static website architecture. HTML files are responsible for the structure and content, while the css directory handles presentation and styling. Multimedia and visual resources are separated into dedicated folders, making the project easier to organize and maintain.
-
-                           ┌──────────────────────┐
-                           │      index.html      │
-                           │       Home Page      │
-                           └──────────┬───────────┘
-                                      │
-                    ┌─────────────────┼─────────────────┐
-                    │                 │                 │
-                    │                 │                 │
-                    ▼                 ▼                 ▼
-          ┌────────────────┐  ┌────────────────┐  ┌─────────────────┐
-          │ fav_song.html  │  │   form.html    │  │ External Links  │
-          │ Favorite Song  │  │     Form       │  │ YouTube / Mail  │
-          └───────┬────────┘  └────────────────┘  └─────────────────┘
-                  │
-                  │
-                  │ Home link
-                  │
-                  ▼
-          ┌────────────────┐
-          │   index.html   │
-          │    Home Page   │
-          └────────────────┘
-
-
-          fav_song.html
-               │
-       ┌───────┼───────────┐
-       │       │           │
-       ▼       ▼           ▼
-    index    Joji       YouTube
-     .html   Website      Videos
