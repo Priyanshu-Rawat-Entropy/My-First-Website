@@ -29,6 +29,7 @@ Keep improving this website as I learn more about web development.
 
 ## 📁 File Architecture
 
+```text
 My-First-Website/
 │
 ├── 📄 index.html
@@ -69,51 +70,7 @@ My-First-Website/
     └── Contains video files used by the website.
         These files provide multimedia/video content
         for the website.
-
-## 📁 File Architecture
-
-My-First-Website/
-│
-├── 📄 index.html
-├── 📄 form.html
-├── 📄 fav_song.html
-├── 📄 README.md
-│
-├── 📁 css/
-│   ├── 📄 file1.css
-│   ├── 📄 file2.css
-│   └── 📄 ...
-│
-├── 📁 fonts/
-│   ├── 📄 font1
-│   ├── 📄 font2
-│   └── 📄 ...
-│
-├── 📁 images/
-│   ├── 📄 image1
-│   ├── 📄 image2
-│   └── 📄 ...
-│
-├── 📁 music/
-│   ├── 📄 song1
-│   ├── 📄 song2
-│   └── 📄 ...
-│
-└── 📁 video/
-    ├── 📄 video1
-    ├── 📄 video2
-    └── 📄 ...
-
-## 🔗 File Relationships
-
-* index.html → Main entry point of the website.
-* form.html → Provides the form-related webpage.
-* fav_song.html → Provides the favorite-song/music webpage.
-* css/ → Provides styling for the HTML pages.
-* images/ → Supplies visual assets referenced by the HTML/CSS files.
-* fonts/ → Supplies custom fonts referenced by the website.
-* music/ → Supplies audio files used by the website.
-* video/ → Supplies video files used by the website.
+```
 
 ## 🏗️ Architecture Overview
 
