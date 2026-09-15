@@ -27,7 +27,7 @@ the fundamentals of building websites.
 
 Keep improving this website as I learn more about web development.
 
-📁 File Architecture
+## 📁 File Architecture
 
 My-First-Website/
 │
@@ -94,8 +94,8 @@ The project follows a simple static website architecture. HTML files are respons
               │              │              │
               ▼              ▼              ▼
        ┌────────────┐ ┌────────────┐ ┌──────────────┐
-       │ form.html  │ │fav_song.html│ │    css/      │
-       │   Forms    │ │   Music     │ │   Styling    │
+       │ form.html  │ │fav_song.html │    css/      │
+       │   Forms    │ │   Music    │ │   Styling    │
        └────────────┘ └────────────┘ └──────────────┘
                              │
                              ▼
