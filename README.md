@@ -1,33 +1,4 @@
-# My First Website 🌐
-
-My first website, created while learning HTML and CSS.
-
-## What is this?
-
-This is my personal HTML & CSS playground.
-I'm using it to experiment with web design and learn
-the fundamentals of building websites.
-
-## What I'm learning
-
-- HTML
-- CSS
-- Flexbox
-- CSS Grid
-- Responsive Design
-
-## Pages
-
-- Home
-- About
-- Favorite Song
-- Contact
-
-## Goal
-
-Keep improving this website as I learn more about web development.
-
-## 📁 File Architecture
+## File Architecture
 
 ```text
 My-First-Website/
@@ -72,7 +43,7 @@ My-First-Website/
         for the website.
 ```
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The project follows a simple static website architecture. HTML files are responsible for the structure and content, while the css directory handles presentation and styling. Multimedia and visual resources are separated into dedicated folders, making the project easier to organize and maintain.
 
