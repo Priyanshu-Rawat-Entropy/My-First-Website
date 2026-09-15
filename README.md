@@ -70,6 +70,40 @@ My-First-Website/
         These files provide multimedia/video content
         for the website.
 
+## 📁 File Architecture
+
+My-First-Website/
+│
+├── 📄 index.html
+├── 📄 form.html
+├── 📄 fav_song.html
+├── 📄 README.md
+│
+├── 📁 css/
+│   ├── 📄 file1.css
+│   ├── 📄 file2.css
+│   └── 📄 ...
+│
+├── 📁 fonts/
+│   ├── 📄 font1
+│   ├── 📄 font2
+│   └── 📄 ...
+│
+├── 📁 images/
+│   ├── 📄 image1
+│   ├── 📄 image2
+│   └── 📄 ...
+│
+├── 📁 music/
+│   ├── 📄 song1
+│   ├── 📄 song2
+│   └── 📄 ...
+│
+└── 📁 video/
+    ├── 📄 video1
+    ├── 📄 video2
+    └── 📄 ...
+
 ## 🔗 File Relationships
 
 * index.html → Main entry point of the website.
