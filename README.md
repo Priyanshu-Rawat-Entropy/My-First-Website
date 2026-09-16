@@ -79,4 +79,24 @@ My-First-Website/
         These files provide multimedia/video content
         for the website.
 ```
+## Installation
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Priyanshu-Rawat-Entropy/My-First-Website.git
+```
+
+### 2. Open the Project
+
+```bash
+cd My-First-Website
+```
+
+### 3. Run the Website
+
+Since this is a static **HTML & CSS** website, no additional packages are required.
+
+Open `index.html` directly in your browser.
+
+You can also use **VS Code with Live Server** to run the website locally.
